@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #1E202D;
+  color: #D2D2D2; /* Asegura que el color por defecto del texto sea visible en el fondo oscuro */
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px; /* Agrega un poco de padding para que el contenido no toque los bordes de la pantalla */
+}
+
+.header {
+  background-color: #000000;
+  color: #FFFFFF; /* Asegura que el texto en el header sea blanco */
+  padding: 80px 0;
+  border-image-width: 5%;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px; /* Añade padding alrededor del menú para un mejor espaciado */
+}
+
+.logo {
+  color: #687CEF;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.navbar ul li {
+  display: inline-block; /* Alinea los elementos de la lista horizontalmente */
+}
+
+.navbar ul li a {
+  color: #FFFFFF;
+  padding: 10px 20px;
+  font-weight: 600;
+  transition: color 0.3s ease; /* Añade transición para el hover */
+}
+
+.navbar ul li a:hover {
+  color: #687CEF;
+}
+
+.header-content, .header-txt {
+  text-align: center; /* Centra el contenido del header */
+  padding: 5px;
+}
+
+.header-content h1, .header-txt h1 {
+  font-size: 48px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.header-content p, .header-txt p {
+  margin-bottom: 20px;
+}
+
+.buttons .btn-1 {
+  margin: 10px; /* Asegura un espaciado uniforme alrededor de los botones */
+  transition: background-color 0.3s ease; /* Suaviza la transición de fondo al pasar el mouse */
+}
+
+.informacion-1, .about, .services-1, .price-1 {
+  background: linear-gradient(145deg, #2b2d3e, #1e202d);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px 0; /* Añade margen para separar las secciones */
+}
+
+.informacion-1:hover, .services-1:hover {
+  background: linear-gradient(145deg, #687CEF, #575fcf);
+  cursor: pointer;
+}
+
+.services-content, .price-content, .footer-content {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se ajusten según el ancho del contenedor */
+  justify-content: space-around; /* Distribuye el espacio alrededor de los elementos */
+}
+
+.services-content .services-1, .price-content .price-1 {
+  margin: 15px; /* Añade margen para asegurar espacio entre los servicios o precios */
+}
+
+.menu-icono {
+  width: 20px; /* Reduce el ancho a 20px */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+.menu {
+  display: flex;
+  justify-content: flex; /* Alinea los elementos al final del contenedor (derecha) */
+  align-items: center; /* Centra los elementos verticalmente */
+}

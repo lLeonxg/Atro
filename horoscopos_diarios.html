@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horóscopo Diario</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Horóscopo Diario</h1>
+    <form action="/tu_servidor.php" method="post"> <!-- Cambia la acción según tu backend -->
+      <label for="nombre">Nombre:</label><br>
+      <input type="text" id="nombre" name="nombre" required><br>
+      
+      <label for="Correo Electronico">Correo:</label><br>
+      <input type="text" id="nombre" name="nombre" required><br>
+
+      <label for="edad">Edad:</label><br>
+      <input type="number" id="edad" name="edad" required min="1"><br>
+      
+      <label for="signo">Signo Zodiacal:</label><br>
+      <select id="signo" name="signo">
+        <option value="aries">Aries</option>
+        <option value="tauro">Tauro</option>
+        <option value="geminis">Géminis</option>
+        <option value="cancer">Cáncer</option>
+        <option value="leo">Leo</option>
+        <option value="virgo">Virgo</option>
+        <option value="libra">Libra</option>
+        <option value="escorpio">Escorpio</option>
+        <option value="sagitario">Sagitario</option>
+        <option value="capricornio">Capricornio</option>
+        <option value="acuario">Acuario</option>
+        <option value="piscis">Piscis</option>
+      </select><br>
+      
+      <label for="fecha_nacimiento">Fecha de Nacimiento:</label><br>
+      <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required><br>
+      
+      <input type="submit" value="Enviar">
+    </form>
+  </div>
+</body>
+</html>

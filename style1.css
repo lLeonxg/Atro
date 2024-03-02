@@ -1,0 +1,44 @@
+.container {
+    background-color: #000000; /* Fondo blanco para la tarjeta */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Sombra sutil */
+    max-width: 600px; /* Ancho máximo de la tarjeta */
+    margin: 40px auto; /* Centra la tarjeta y añade margen arriba y abajo */
+    padding: 20px; /* Espaciado dentro de la tarjeta */
+    color: #ffffff; /* Color de texto */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column; /* Organiza los campos del formulario en columna */
+  }
+  
+  form label {
+    margin-top: 10px; /* Añade margen arriba de cada etiqueta */
+  }
+  
+  form input, form select {
+    padding: 10px; /* Espaciado dentro de los campos de entrada */
+    margin-top: 5px; /* Margen arriba de cada campo para separarlos de la etiqueta */
+    border: 1px solid #260477; /* Borde sutil */
+    border-radius: 4px; /* Bordes redondeados para los campos de entrada */
+  }
+  
+  form input[type="submit"] {
+    background-color: #687CEF; /* Color de fondo del botón enviar */
+    color: rgb(255, 255, 255); /* Color de texto del botón */
+    cursor: pointer; /* Cambia el cursor a pointer */
+    margin-top: 20px; /* Margen arriba del botón */
+    border: none; /* Elimina el borde del botón */
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #575fcf; /* Oscurece el botón al pasar el mouse */
+  }
+  
+  /* Estilos adicionales para mejorar la apariencia del formulario y la página */
+  body {
+    background-color: #f4f4f4; /* Color de fondo para la página */
+    font-family: 'Poppins', sans-serif; /* Asegura que la tipografía sea consistente */
+  }
+  
